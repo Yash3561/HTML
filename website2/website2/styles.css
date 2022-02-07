@@ -1,0 +1,1312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    margin-right: 4px;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 243);
+
+}
+.top{
+    background-color: #0a0a0a;
+    width: 100%;
+   height: 36px;
+}
+.ps5logo{
+    top: 5px;
+    width: 35px;
+    height: 35px;
+    padding: 0 20px;
+}
+.ps51{
+    float: left;
+    height: auto;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.sony{
+    margin-top: 8px;
+    width: 90px;
+    left: 90%;
+    height: 20px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+.toolbar1 nav{
+    flex: 1;
+    left: 40%;
+ }
+ .toolbar1 nav ul li{
+     list-style: none;
+     display: inline;
+     margin-right: 20px;
+     margin-top:  5px;
+ }
+ .toolbar1 nav ul li a{
+     position: relative;
+     text-decoration: none;
+     color: #757575;
+     font-size: 13px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: bold;
+ }
+.toolbar1 nav ul li a::after{
+    color: #0070D1;
+}
+.toolbar nav{
+   flex: 1;         
+   top: 15px;
+}
+.toolbar nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 16px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.toolbar nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #757575;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.4px;
+}
+.toolbar nav ul li a:hover{
+    color: #0070D1;
+}
+.toolbar nav ul hr{
+    width: 650px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 470px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #0070D1;
+}
+.signin{
+    border: none;
+    margin-top: 5px;
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
+    border-radius: 15px;
+    background-color: #0a0a0a;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    transition: 0.3s ease;
+}
+.signin:hover{
+    border: 3px lightgray solid;
+    background-color: #757575;
+}
+.search{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+.ps5{
+    height: 40px;
+    width: 185px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.main{
+    position: relative;
+}
+.main img {
+    width: 100%;
+    height: 600px;
+  }
+  .main .btn {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.3s ease;
+  }
+  .main .btn:hover{
+      border: 3px lightgray solid;
+  }
+  .nolimit h2{
+      font-size: 39px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      text-align: center;
+      padding-top: 48px;
+    letter-spacing: 0.5px;
+
+  }
+  .page2{
+      background-color: rgb(243, 243, 243);
+  }
+  .ratchet{
+      position: relative;
+      padding-top: 60px;
+      padding-left: 400px;
+      width: 700px;
+      height: 350px;
+  }
+  .reveal,.forbidden,.discover,.man{
+      margin-right: 30px;
+  }
+  .reveal{
+      padding-left: 110px;
+  }
+  .page2 .nolimit p{
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 50px;
+  }
+.d1{
+    font-size: 12px;
+    padding-bottom: 50px;;
+}
+.ps5set{
+    height: 90vh;
+    width: 1400px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ .txt-7{
+    margin-top: 50px;
+    margin-left: 600px;
+    text-align: center;
+    font-size: 39px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+}
+.set p{
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    color: #757575;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.io{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.ssd-{
+    width: 150px;
+    height: 150px;
+    margin-left: 380px;
+    margin-top: 50px;
+}
+.text-8{
+    margin-left: 325px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+.text-9{
+    margin-left: 405px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+.text-81{
+    text-align: initial;
+    margin-top: 20px;
+    margin-left: 248px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #1F1F1F;
+    line-height: 1.6;
+}
+.text-91{
+    text-align: right;
+    margin-top: -45px;
+    margin-right: 212px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #1F1F1F;
+    line-height: 1.6;
+}
+.horizon1{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    margin-top: 50px;
+}
+.horizon h2{
+    position: relative;
+    text-align: center;
+    margin-top: -980px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+}
+.horizon p{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(226, 224, 224, 0.884);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.0;
+}
+ .images{
+    position: relative;
+    text-align: center;
+    margin-right: 700px;
+    margin-top: 8px;
+    color: #FFFFFF;
+ }
+.horizon h4{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-right: 250px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.tracing{
+    width: 100px;
+    height: 100px;
+}
+.fps{
+    width: 100px;
+    height: 100px;
+}.tv4k{
+    width: 100px;
+    height: 100px;
+}
+.tv8k{
+    width: 100px;
+    height: 100px;
+}
+.hdr{
+    width: 100px;
+    height: 100px;
+}
+.text10{
+    text-align: left;
+    position: relative;
+    margin-top: -800px;
+    font-family: 'Poppins', sans-serif;
+}
+.text10 p{
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-left: 520px;
+    line-height: 1.6;
+}
+.text10 h4{
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 520px;
+}
+.page3{
+    position: relative;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.page3 h2{
+    margin-top: 150px;
+    position: relative;
+    font-size: 39px;
+    line-height: 4;
+    font-weight: 300;
+    text-align: center;
+}
+.page3 .ps5console{
+    margin-top: 50px;
+    margin-left: 100px; 
+}
+.page3 .ps5console span{
+    margin-left: 600px;
+    font-size: 20px;
+    line-height:2;
+    margin-top: -150px;
+}
+.page3 .ps5console hr{
+    width: 615px;
+    margin-left: 350px;
+    background-color: #0070D1;
+    height: 3px;
+    border-radius: 50%;
+}
+.page3 .ps5console .consolesimple{
+    margin-top: -570px;
+    width: 500px;
+    margin-right: 120px;
+}
+.page3 .ps5console h3{
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 3.5;
+    margin-bottom: -20px;
+}
+.page3 .ps5console h4{
+    font-size: 25px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.page3 .ps5console a .request{
+    margin-top: 25px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 390px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page3 .ps5console .request:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}
+.page3 .ps5console a .browse{
+    margin-top: 50px;
+    margin-left: 550px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #CD3D0F;
+    border-color: transparent;
+    width: 200px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page3 .ps5console .browse:hover{
+    border: 3px lightgray solid;
+    background-color: #b1380f;
+}
+.page3 .ps5digital{
+    margin-top: 50px;
+    margin-left: 600px; 
+}
+.page3 .ps5digital span{
+    margin-left: 100px;
+    font-size: 20px;
+    line-height:2;
+    margin-top: -150px;
+}
+.page3 .ps5digital hr{
+    width: 615px;
+    margin-left: -150px;
+    background-color: #0070D1;
+    height: 3px;
+    border-radius: 50%;
+}
+.page3 .ps5digital .consoledigital{
+    margin-top: -630px;
+    margin-left: -520px;
+    width: 500px;
+    margin-right: 820px;
+}
+.page3 .ps5digital h3{
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 3.5;
+    margin-bottom: -45px;
+}
+.page3 .ps5digital h4{
+    margin-left: 150px;
+    font-size: 25px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.page3 .ps5digital p{
+    margin-left: 150px;
+}
+.page3 .ps5digital a .request1{
+    margin-left: 450px;
+    margin-top: 25px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 390px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page3 .ps5digital .request1:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}
+.page3 .ps5digital a .browse1{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #CD3D0F;
+    border-color: transparent;
+    width: 200px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page3 .ps5digital .browse1:hover{
+    border: 3px lightgray solid;
+    background-color: #b1380f;
+}
+.page4{
+    background-color: rgb(233, 232, 232);
+}
+.page4 h3{
+    margin-left: 550px;
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 3;
+}
+.page4 .future-gaming{
+    margin-top: 80px;
+    margin-left: 320px;
+    width: 900px;
+    height: 500px;
+}
+.page4 .spiderman{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .leftgames h4{
+    margin-left: 100px;
+    margin-top: -20px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 3;
+    margin-bottom: -30px;
+}
+.page4 .leftgames p{
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-left: 100px;
+    line-height: 1.6;
+}
+.page4 .leftgames .spider-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .leftgames .spider-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}
+.page4 .leftgames .ratchetclank-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .leftgames .ratchetclank-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}.page4 .leftgames .returnal-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .leftgames .returnal-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}.page4 .leftgames .deathloop-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .leftgames .deathloop-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}.page4 .leftgames .demon-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .leftgames .demon-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}.page4 .leftgames .nba-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .leftgames .nba-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}
+.page4 .ratchetclank{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .returnal{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .deathloop{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .demon{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .nba{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .west{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .gran{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .godfall{
+    margin-top: 75px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .allstars{
+    margin-top: 24px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .fifa{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .sackboy{
+    margin-top: 24px;
+    margin-left: 100px;
+    width: 630px;
+    height: auto;
+}
+.page4 .rightgames{
+    position: relative;
+    margin-top: -3615px;
+    margin-left: 700px;
+}
+.page4 .rightgames h4{
+    margin-left: 100px;
+    margin-top: -20px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 3;
+    margin-bottom: -30px;
+}
+.page4 .rightgames p{
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-left: 100px;
+    line-height: 1.6;
+}
+.page4 .rightgames .west-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .rightgames .west-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}
+.page4 .rightgames .gran-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .rightgames .gran-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}.page4 .rightgames .sackboy-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .rightgames .sackboy-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}.page4 .rightgames .godfall-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .rightgames .godfall-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}.page4 .rightgames .allstars-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .rightgames .allstars-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #2249a3;
+}.page4 .rightgames .fifa-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .rightgames .fifa-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #1e3f8b;
+}
+.page4 .moregames-btn{
+    margin-top: 10px;
+    margin-left: 680px;
+    margin-bottom: 40px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #2D64E6;
+    background-color: rgba(197, 197, 197, 0.911);
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .moregames-btn:hover{
+    border: 3px lightgray solid;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+}
+.psplus1{
+    width: 1517px;
+    height: 580px;
+    position: relative;
+    overflow: hidden;
+}
+.page4 .plus h3{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: -350px;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 3.5;
+}
+.page4 .plus p{
+    position: relative;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    line-height: 1.6;
+}
+.page4 .plus .plus-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 90px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page4 .plus .plus-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #1e3f8b;
+}
+.page5 .miles{
+    width: 1517px;
+    height: 850px;
+    position: relative;
+    overflow: hidden;
+}
+.page5 .breath h3{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin-left: 500px;
+    margin-top: -870px;
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 3.5;
+}
+.page5 .breath p{
+    position: relative;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-top: -45px;
+    margin-left: 270px;
+    line-height: 1.6;
+}
+.page5 .set3d{
+    position: relative;
+    margin-top: 550px;
+    margin-left: 300px;
+    width: 158px;
+    height: 128px;
+}
+.page5 .d3 h3{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin-left: 510px;
+    margin-top: -150px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 1.6;
+}
+.page5 .d3 p{
+    position: relative;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-left: 510px;
+    line-height: 1.6;
+}
+.page6 .height h3{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 39px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 1.6;
+}
+.page6 .height p{
+    position: relative;
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.page6 .height .dual{
+    margin-left: 358px;
+    position: relative;
+    margin-top: 50px;
+    width: 800px;
+    height: 400px;
+}
+.page6 .leftconsole h4{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-left: -720px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 1.6;
+}
+.page6 .leftconsole p{
+    position: relative;
+    text-align: center;
+    color: #000000;
+    margin-left: -720px;
+    margin-bottom: -435px;
+
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.page6 .rightconsole h4{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-top: -23px;
+    margin-bottom: 30px;
+    margin-left: 757px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 1.6;
+}
+.page6 .rightconsole p{
+    position: relative;
+    text-align: center;
+    color: #000000;
+    margin-top: -5px;
+    font-weight: 300;
+    margin-left: 750px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.page6 .haptic{
+    position: relative;
+    overflow: hidden;
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.page6 .adaptive{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 990px;
+    width: 280px;
+    height: 280px;
+}
+.page6 .height-btn{
+    margin-top: 60px;
+    margin-left: 680px;
+    margin-bottom: 130px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page6 .height-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #1e3f8b;
+}
+.page6 .astro .astro-btn{
+    margin-top: 30px;
+    margin-left: 820px;
+    margin-bottom: 50px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page6 .astro .astro-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #1e3f8b;
+}
+.page6 .astroplay{
+    width: 650px;
+    height: auto;
+    position: relative;
+    margin-left: 100px;
+}
+.page6 .astro h4{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: -350px;
+    margin-bottom: 30px;
+    font-size: 39px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 1.6;
+}
+.page6 .astro p{
+    position: relative;
+    text-align: left;
+    color: #000000;
+    margin-left: 820px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.page7{
+    background-color: lightgray;
+    margin-top: 150px;
+}
+.page7  h3{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-size: 39px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 1.6;
+}
+.page7 .circle4k{
+    position: relative;
+    margin-left: 400px;
+    margin-bottom: 100px;
+
+    width: 100px;
+    height: 100px;
+}
+.page7 .box4k{
+    position: relative;
+    margin-left: 400px;
+    margin-bottom: 100px;
+
+    width: 100px;
+    height: 100px;
+}.page7 .share{
+    position: relative;
+    margin-left: 400px;
+    margin-bottom: 100px;
+
+
+    width: 100px;
+    height: 100px;
+}
+.page7  .contentcreate{
+    position: relative;
+    margin-top: -600px;
+}
+.page7  .contentcreate h4{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-align: left;
+    margin-left: 520px;
+
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 1.6;
+}
+.page7 .contentcreate p{
+    position: relative;
+    text-align: left;
+    color: #000000;
+    margin-left: 520px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.page7 .contentcreate .entertainment-btn{
+    margin-top: 30px;
+    margin-left: 720px;
+    margin-bottom: 50px;
+    font-family: 'Lato',sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #2D64E6;
+    border-color: transparent;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.page7 .contentcreate .entertainment-btn:hover{
+    border: 3px lightgray solid;
+    background-color: #1e3f8b;
+}
+.page8 .marvel{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 81px;
+    margin-left: 70px;
+}
+.page8  p{
+    position: relative;
+    text-align: left;
+    color: #000000;
+    margin-left: 70px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
